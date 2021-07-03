@@ -1,0 +1,369 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FEF9E7;
+    color: #333;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+.box{
+    margin: 10px;
+    width: 45%;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid #dedede;
+}
+
+.box__one{
+    background-color: #2ECC71;
+}
+
+.box__two{
+    background-color: #E74C3C;
+}
+
+.box__three{
+    background-color: #5499C7;
+}
+
+.box__four{
+    background-color: #F5B041;
+}
+
+.box__five{
+    background-color: #85929E;
+}
+
+#break__rule{
+    margin-bottom: 30px;
+}
+
+.content{
+    width: 90%;
+    height: 360px;
+    margin: 30px auto;
+    background-color: #6C3483;
+    border-radius: 10px;
+    border: 2px solid #F39C12;
+    padding: 10px;
+}
+
+.content__one{
+
+}
+
+.content__two{
+    display: flex;
+}
+
+.content__three{
+    display: flex;
+    flex-direction: column;
+}
+
+.content__four{
+    display: flex;
+    flex-direction: row;
+}
+
+.content__five{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.content__six{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content__seven{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content__eight{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.content__nine{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.content__ten{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.content__eleven{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.content__twelve{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.content__thirteen{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.content__fourteen{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.content__fifteen{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.content__sixteen{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.content__seventeen{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+}
+
+.content__eighteenth{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.content__nineteen{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.content__twenty{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.content__twenty__one{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.content__twenty__two{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.content__twenty__three{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.content__twenty__four{
+    display: flex;
+    flex-flow: row wrap;
+    place-content: center center;
+}
+
+.content__twenty__five{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__twenty__six{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.content__twenty__seven{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content__twenty__eight{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.content__twenty__nine{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__thirty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__thirty__one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__thirty__two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.content__thirty__three{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__thirty__three > .box{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+}
+
+.content__thirty__three > .box__one{
+    order: 5;
+}
+
+.content__thirty__three > .box__two{
+    order: 4;
+}
+
+.content__thirty__three > .box__three{
+    order: 3;
+}
+
+.content__thirty__three > .box__four{
+    order: 2;
+}
+
+.content__thirty__three > .box__five{
+    order: 1;
+}
+
+.content__thirty__four{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__thirty__four > .box__one{
+    flex-grow: 1;
+}
+
+.content__thirty__four > .box__four{
+    flex-grow: 1;
+}
+
+.content__thirty__four > .box__five{
+    flex-grow: 1;
+}
+
+.content__thirty__five{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__thirty__five > .box__one{
+    flex-shrink: 0;
+}
+
+.content__thirty__six{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__thirty__six > .box__two{
+    flex-basis: 100px;
+}
+
+.content__thirty__seven{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__thirty__seven > .box__three{
+    flex: 1 0 500px;
+}
+
+.content__thirty__eight{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__thirty__eight > .box__one{
+    align-self: center;
+}
+
+.content__thirty__eight > .box__two{
+    align-self: flex-start;
+}
+
+.content__thirty__eight > .box__three{
+    align-self: flex-end;
+}
+
+.content__thirty__eight > .box__four{
+    align-self: stretch;
+}
+
+.content__thirty__eight > .box__five{
+    align-self: center;
+}
