@@ -32,7 +32,7 @@
 
 ## តម្រូវការមុននឹងអាចសិក្សា CSS Flexbox:
 
-- ត្រូវមានចំណេះដឹងទាក់ទងនឹង HTML និង CSS ខ្លះៗដើម្បីងាយស្រួលក្នុងការសិក្សាបន្ថែម!
+- ត្រូវមានចំណេះដឹងទាក់ទងនឹង **HTML** និង **CSS** ខ្លះៗដើម្បីងាយស្រួលក្នុងការសិក្សាបន្ថែម!
 
 #
 
@@ -81,6 +81,8 @@
     - `align-self` : ប្រើសម្រាប់កំណត់តម្លៃដូច `align-items` ប៉ុន្តែសម្រាប់តែមួយធាតុបច្ចុប្បន្ននេះទេ។
 
 ## ឧទាហរណ៍:
+
+- ខាងក្រោមនេះគឺជាឧទាហរណ៍ដែលមាន **Container** ដើម្បីក្តោបនូវ **Content** តូចៗ ហើយនៅក្នុង **Content** តូចៗនោះគឺមាន **Box** តូចៗចំនួនប្រាំបន្ថែមទៀត:
 
 `src / exercises / index.html`
 
@@ -151,7 +153,11 @@
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentOne.JPG "CSS-Flexbox Exercise")
 
+- ដោយយើងបានឃើញហើយថា នៅក្នុង `class content__one` គឺមិនទាន់មានកំណត់ _style_ អ្វីចូលទៅក្នុងនឹងនោះទេ ដូច្នេះលទ្ធផលបង្ហាញចេញមកគឺ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានលក្ខណះធ្លាក់ចុះជាទម្រង់ជួរឈរ។
+
 #
+
+- ខាងក្រោមនេះគឺយើងប្រើ _flexbox_ នៅក្នុង `class content__two` ហើយដើម្បីអាចប្រើប្រាស់ _flexbox_ គឺយើងប្រើ _property_ `display` ហើយតម្លៃគឺ `flex` គឺមានលក្ខណះបែបនេះ `display: flex;`។
 
 `src / exercises / index.html`
 
@@ -1128,12 +1134,12 @@
 ```js
 <div class="container">
   <div class="content content__thirty__four">
-            <div class="box box__one"></div>
-            <div class="box box__two"></div>
-            <div class="box box__three"></div>
-            <div class="box box__four"></div>
-            <div class="box box__five"></div>
-        </div>
+    <div class="box box__one"></div>
+    <div class="box box__two"></div>
+    <div class="box box__three"></div>
+    <div class="box box__four"></div>
+    <div class="box box__five"></div>
+  </div>
 </div>
 ```
 
@@ -1171,12 +1177,12 @@
 ```js
 <div class="container">
   <div class="content content__thirty__five">
-            <div class="box box__one"></div>
-            <div class="box box__two"></div>
-            <div class="box box__three"></div>
-            <div class="box box__four"></div>
-            <div class="box box__five"></div>
-        </div>
+    <div class="box box__one"></div>
+    <div class="box box__two"></div>
+    <div class="box box__three"></div>
+    <div class="box box__four"></div>
+    <div class="box box__five"></div>
+  </div>
 </div>
 ```
 
@@ -1206,12 +1212,12 @@
 ```js
 <div class="container">
   <div class="content content__thirty__six">
-            <div class="box box__one"></div>
-            <div class="box box__two"></div>
-            <div class="box box__three"></div>
-            <div class="box box__four"></div>
-            <div class="box box__five"></div>
-        </div>
+    <div class="box box__one"></div>
+    <div class="box box__two"></div>
+    <div class="box box__three"></div>
+    <div class="box box__four"></div>
+    <div class="box box__five"></div>
+  </div>
 </div>
 ```
 
@@ -1241,12 +1247,12 @@
 ```js
 <div class="container">
   <div class="content content__thirty__seven">
-            <div class="box box__one"></div>
-            <div class="box box__two"></div>
-            <div class="box box__three"></div>
-            <div class="box box__four"></div>
-            <div class="box box__five"></div>
-        </div>
+    <div class="box box__one"></div>
+    <div class="box box__two"></div>
+    <div class="box box__three"></div>
+    <div class="box box__four"></div>
+    <div class="box box__five"></div>
+  </div>
 </div>
 ```
 
@@ -1276,12 +1282,12 @@
 ```js
 <div class="container">
   <div class="content content__thirty__eight">
-            <div class="box box__one"></div>
-            <div class="box box__two"></div>
-            <div class="box box__three"></div>
-            <div class="box box__four"></div>
-            <div class="box box__five"></div>
-        </div>
+    <div class="box box__one"></div>
+    <div class="box box__two"></div>
+    <div class="box box__three"></div>
+    <div class="box box__four"></div>
+    <div class="box box__five"></div>
+  </div>
 </div>
 ```
 
