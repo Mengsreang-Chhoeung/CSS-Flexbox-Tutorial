@@ -185,7 +185,11 @@
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentTwo.JPG "CSS-Flexbox Exercise")
 
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__two` គឺមានការកំណត់ _style_ ចំនួនមួយ​ _property_ គឺ `display: flex` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានលក្ខណះឡើងលើជាទម្រង់ជួរដេកវិញ។
+
 #
+
+- ខាងក្រោមនេះគឺយើងប្រើ _flexbox_ ដើម្បីកំណត់ទិសដៅទៅឲ្យ _boxes_ ទាំងអស់នៅក្នុង `class content__three` ហើយដើម្បីអាចកំណត់ទិសដៅបាន យើងអាចប្រើប្រាស់នូវ _property_ `flex-direction` ហើយតម្លៃជាច្រើនដែលមានដូច​ជា `column, row, column-reverse,​ និង​ row-reverse` ។
 
 `src / exercises / index.html`
 
@@ -213,6 +217,8 @@
 > លទ្ធផល:
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentThree.JPG "CSS-Flexbox Exercise")
+
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__three` គឺមានការកំណត់ _style_ ចំនួនមួយ​ _property_ បន្ថែមទៀតគឺ `flex-direction: column` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានទិសដៅជាលក្ខណះធ្លាក់ចុះជាទម្រង់ជួរឈរវិញ។
 
 #
 
@@ -243,6 +249,8 @@
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentFour.JPG "CSS-Flexbox Exercise")
 
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__four` គឺមានការកំណត់ _style_ _property_ ដដែលតែមានការផ្លាស់ប្តូរតម្លៃគឺ `flex-direction: row` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានទិសដៅជាលក្ខណះឡើងលើជាទម្រង់ជួរដេកវិញ។
+
 #
 
 `src / exercises / index.html`
@@ -272,6 +280,8 @@
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentFive.JPG "CSS-Flexbox Exercise")
 
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__five` គឺមានការកំណត់ _style_ _property_ ដដែលតែមានការផ្លាស់ប្តូរតម្លៃគឺ `flex-direction: column-reverse` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានទិសដៅជាលក្ខណះធ្លាក់ចុះជាទម្រង់ជួរឈរបែបបញ្ច្រាស់ទៅវិញ។
+
 #
 
 `src / exercises / index.html`
@@ -300,6 +310,8 @@
 > លទ្ធផល:
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentSix.JPG "CSS-Flexbox Exercise")
+
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__six` គឺមានការកំណត់ _style_ _property_ ដដែលតែមានការផ្លាស់ប្តូរតម្លៃគឺ `flex-direction: row-reverse` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានទិសដៅជាលក្ខណះឡើងលើជាទម្រង់ជួរដេកបែបបញ្ច្រាស់ទៅវិញ។
 
 #
 
