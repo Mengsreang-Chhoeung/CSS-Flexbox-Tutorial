@@ -189,7 +189,7 @@
 
 #
 
-- ខាងក្រោមនេះគឺយើងប្រើ _flexbox_ ដើម្បីកំណត់ទិសដៅទៅឲ្យ _boxes_ ទាំងអស់នៅក្នុង `class content__three` ហើយដើម្បីអាចកំណត់ទិសដៅបាន យើងអាចប្រើប្រាស់នូវ _property_ `flex-direction` ហើយតម្លៃជាច្រើនដែលមានដូច​ជា `column, row, column-reverse,​ និង​ row-reverse` ។
+- ខាងក្រោមនេះគឺយើងប្រើ _flexbox_ ដើម្បីកំណត់ទិសដៅទៅឲ្យ _boxes_ ទាំងអស់នៅក្នុង `class content__three` ហើយដើម្បីអាចកំណត់ទិសដៅបាន យើងអាចប្រើប្រាស់នូវ _property_ `flex-direction` ហើយមានតម្លៃជាច្រើនដែលមានដូច​ជា `column, row, column-reverse,​ និង​ row-reverse` ។
 
 `src / exercises / index.html`
 
@@ -315,7 +315,7 @@
 
 #
 
-- ខាងក្រោមនេះគឺយើងប្រើ _flexbox_ ដើម្បីកំណត់ការចុះបន្ទាត់របស់ _boxes_ ទាំងអស់នៅក្នុង `class content__seven` ហើយដើម្បីអាចកំណត់ការចុះបន្ទាត់បាន យើងអាចប្រើប្រាស់នូវ _property_ `flex-wrap` ហើយតម្លៃជាច្រើនដែលមានដូច​ជា `wrap, nowrap,  និង wrap-reverse` ។
+- ខាងក្រោមនេះគឺយើងប្រើ _flexbox_ ដើម្បីកំណត់ការចុះបន្ទាត់របស់ _boxes_ ទាំងអស់នៅក្នុង `class content__seven` ហើយដើម្បីអាចកំណត់ការចុះបន្ទាត់បាន យើងអាចប្រើប្រាស់នូវ _property_ `flex-wrap` ហើយមានតម្លៃជាច្រើនដែលមានដូច​ជា `wrap, nowrap,  និង wrap-reverse` ។
 
 `src / exercises / index.html`
 
@@ -413,6 +413,8 @@
 
 #
 
+- ខាងក្រោមនេះគឺយើងប្រើ _flexbox_ ដើម្បីកំណត់ទិសដៅនិងការចុះបន្ទាត់រួមបញ្ចូលគ្នាដោយប្រើតែ _property_ តែមួយគត់គឺ `flex-flow` ហើយមានតម្លៃជាច្រើនដែលមានទៅតាមតម្លៃរបស់ _property_ របស់ `flex-direction` និង `flex-wrap` ។
+
 `src / exercises / index.html`
 
 ```js
@@ -439,6 +441,8 @@
 > លទ្ធផល:
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentTen.JPG "CSS-Flexbox Exercise")
+
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__ten` គឺមានការកំណត់ _style_ ចំនួនមួយ _property_ ជំនួស _properties_ ពីរគឺ `flex-flow: row wrap` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានទិសដៅជាលក្ខណះជួរដេកហើយមានលក្ខណះបែបជាចុះបន្ទាត់។ 
 
 #
 
