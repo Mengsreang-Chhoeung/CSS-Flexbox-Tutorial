@@ -315,6 +315,8 @@
 
 #
 
+- ខាងក្រោមនេះគឺយើងប្រើ _flexbox_ ដើម្បីកំណត់ការចុះបន្ទាត់របស់ _boxes_ ទាំងអស់នៅក្នុង `class content__seven` ហើយដើម្បីអាចកំណត់ការចុះបន្ទាត់បាន យើងអាចប្រើប្រាស់នូវ _property_ `flex-wrap` ហើយតម្លៃជាច្រើនដែលមានដូច​ជា `wrap, nowrap,  និង wrap-reverse` ។
+
 `src / exercises / index.html`
 
 ```js
@@ -342,6 +344,8 @@
 > លទ្ធផល:
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentSeven.JPG "CSS-Flexbox Exercise")
+
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__seven` គឺមានការកំណត់ _style_ ចំនួនមួយ _property_ បន្ថែមទៀតគឺ `flex-wrap: wrap` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានលក្ខណះចុះបន្ទាត់។
 
 #
 
@@ -373,6 +377,8 @@
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentEight.JPG "CSS-Flexbox Exercise")
 
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__eight` គឺមានការកំណត់ _style_ _property_ ដដែលតែមានការផ្លាស់ប្តូរតម្លៃគឺ `flex-wrap: wrap-reverse` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានលក្ខណះចុះបន្ទាត់បែបជាបញ្ច្រាស់ទៅវិញ។ 
+
 #
 
 `src / exercises / index.html`
@@ -402,6 +408,8 @@
 > លទ្ធផល:
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentNine.JPG "CSS-Flexbox Exercise")
+
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__nine` គឺមានការកំណត់ _style_ _property_ ដដែលតែមានការផ្លាស់ប្តូរតម្លៃគឺ `flex-wrap: nowrap` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានលក្ខណះមិនចុះបន្ទាត់ទៅវិញ។ 
 
 #
 
