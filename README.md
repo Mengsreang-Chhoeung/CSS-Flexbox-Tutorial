@@ -446,6 +446,9 @@
 
 #
 
+- ខាងក្រោមនេះគឺយើងប្រើ _flexbox_ ដើម្បីតម្រៀបធាតុជាលក្ខណះជួរដេកទៅឲ្យ _boxes_ ទាំងអស់នៅក្នុង `class content__eleven` ហើយដើម្បីតម្រៀបធាតុជាលក្ខណះជួរដេកបាន យើងអាចប្រើប្រាស់នូវ _property_ `justify-content` ហើយមានតម្លៃជាច្រើនដែលមានដូច​ជា `center, flex-start, flex-end, space-between, space-around, space-evenly, និង​ stretch` ។
+
+
 `src / exercises / index.html`
 
 ```js
@@ -473,6 +476,8 @@
 > លទ្ធផល:
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentEleven.JPG "CSS-Flexbox Exercise")
+
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__eleven` គឺមានការកំណត់ _style_ ចំនួនមួយ _property_ បន្ថែមទៀតគឺ `justify-content: center` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានលក្ខណះនៅកណ្តាលនៃ _content_។ 
 
 #
 
@@ -504,6 +509,8 @@
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentTwelve.JPG "CSS-Flexbox Exercise")
 
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__twelve` គឺមានការកំណត់ _style_ _property_ ដដែលតែមានការផ្លាស់ប្តូរតម្លៃគឺ `justify-content: flex-start` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានលក្ខណះនៅកន្លែងចាប់ផ្តើមនៃ _content_។ 
+
 #
 
 `src / exercises / index.html`
@@ -534,6 +541,8 @@
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentThirteen.JPG "CSS-Flexbox Exercise")
 
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__thirteen` គឺមានការកំណត់ _style_ _property_ ដដែលតែមានការផ្លាស់ប្តូរតម្លៃគឺ `justify-content: flex-end` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានលក្ខណះនៅកន្លែងបញ្ចប់នៃ _content_។ 
+
 #
 
 `src / exercises / index.html`
@@ -563,6 +572,8 @@
 > លទ្ធផល:
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentFourteen.JPG "CSS-Flexbox Exercise")
+
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__fourteen` គឺមានការកំណត់ _style_ _property_ ដដែលតែមានការផ្លាស់ប្តូរតម្លៃគឺ `justify-content: space-between` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានលក្ខណះនៅញែកសងនៃកន្លែងចាប់ផ្តើមនិងកន្លែងបញ្ចប់របស់ _content_។ 
 
 #
 
@@ -595,6 +606,8 @@
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentFifteen.JPG "CSS-Flexbox Exercise")
 
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__fifteen` គឺមានការកំណត់ _style_ _property_ ដដែលតែមានការផ្លាស់ប្តូរតម្លៃគឺ `justify-content: space-around` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានលក្ខណះនៅញែកសងនៃកន្លែងចាប់ផ្តើមនិងកន្លែងបញ្ចប់របស់ _content_ តែមានគម្លាតរៀងធំបន្តិចនៃកន្លែងចាប់ផ្តើមនិងកន្លែងបញ្ចប់របស់ _content_។ 
+
 #
 
 `src / exercises / index.html`
@@ -626,6 +639,8 @@
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentSixteen.JPG "CSS-Flexbox Exercise")
 
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__sixteen` គឺមានការកំណត់ _style_ _property_ ដដែលតែមានការផ្លាស់ប្តូរតម្លៃគឺ `justify-content: space-evenly` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានលក្ខណះនៅញែកសងនៃកន្លែងចាប់ផ្តើមនិងកន្លែងបញ្ចប់របស់ _content_ តែមានគម្លាតស្មើៗគ្នារវាងគម្លាតនៃកន្លែងចាប់ផ្តើមនិងកន្លែងបញ្ចប់របស់ _content_ និងគម្លាតរបស់ _boxes_ នីមួយៗ។ 
+
 #
 
 `src / exercises / index.html`
@@ -656,6 +671,8 @@
 > លទ្ធផល:
 
 ![css-flexbox thumbnail](/_thumbnail_doc/contentSeventeen.JPG "CSS-Flexbox Exercise")
+
+- ដោយយើងបានឃើញហើយថានៅក្នុង `class content__seventeen` គឺមានការកំណត់ _style_ _property_ ដដែលតែមានការផ្លាស់ប្តូរតម្លៃគឺ `justify-content: stretch` ដូច្នេះ _boxes_ ទាំងអស់នៅក្នុង _content_ គឺមានលក្ខណះនៅកន្លែងចាប់ផ្តើមនៃ _content_ វាដូចទៅនឹងតម្លៃ _defualt_។ 
 
 #
 
